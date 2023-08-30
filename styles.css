@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #c3ff00;
+  z-index: 999;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-title {
+  flex: 1 1 100%;
+  align-items: start;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 10px;
+}
+
+.header-sentence {
+  flex: 1 1 100%;
+  align-items: end;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.header-instructions-container {
+  flex: 0 0 400px;
+  margin-left: 20px;
+}
+
+.header-instructions {
+  background-color: #c3ff00;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.header-instructions ol {
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.header-instructions ol li {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  position:relative;
+  flex-direction:row;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: top;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 2px solid #333;
+  border-radius: 8px;
+  image-rendering: pixelated;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+#imageNameInput {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#findButton, #randomizeButton {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #6a6a6a;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+#traits {
+  text-align: right;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#traits h2 {
+
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#traits h3 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#traits p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#traits strong {
+  color: #fff;
+}
+
